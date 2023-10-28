@@ -663,6 +663,7 @@ GameObject:
   - component: {fileID: 639241025}
   - component: {fileID: 639241024}
   - component: {fileID: 639241028}
+  - component: {fileID: 639241029}
   m_Layer: 0
   m_Name: FallingBall
   m_TagString: Untagged
@@ -783,6 +784,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &639241029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639241023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a93d57b08027d43a2f835d356fb42c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleChange: {x: 0.0003, y: 0.0003, z: 0.0003}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
