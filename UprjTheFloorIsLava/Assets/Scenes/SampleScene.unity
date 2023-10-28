@@ -1245,6 +1245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd6452d703571c54bba2c13e1a9337e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  strMyMessage: Cheese
 --- !u!4 &1082973045
 Transform:
   m_ObjectHideFlags: 0
